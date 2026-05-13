@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "usuario": "admin",
+    "password": "1234",
+    "nombre": "Administrador GymSport"
+  },
+  {
+    "id": 2,
+    "usuario": "vendedor",
+    "password": "gym2024",
+    "nombre": "Vendedor GymSport"
+  }
+]

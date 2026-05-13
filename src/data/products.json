@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mancuernas Ajustables 20kg",
+    "precio": 180000,
+    "categoria": "implementos",
+    "imagen": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&q=80",
+    "descripcion": "Par de mancuernas ajustables de acero con grip antideslizante"
+  },
+  {
+    "id": 2,
+    "nombre": "Barra Olímpica 20kg",
+    "precio": 320000,
+    "categoria": "implementos",
+    "imagen": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80",
+    "descripcion": "Barra olímpica de acero cromado, resistente a 300kg"
+  },
+  {
+    "id": 3,
+    "nombre": "Colchoneta Yoga 6mm",
+    "precio": 65000,
+    "categoria": "implementos",
+    "imagen": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=400&q=80",
+    "descripcion": "Colchoneta antideslizante para yoga y pilates"
+  },
+  {
+    "id": 4,
+    "nombre": "Proteína Whey 2kg",
+    "precio": 210000,
+    "categoria": "suplementos",
+    "imagen": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?w=400&q=80",
+    "descripcion": "Proteína de suero de leche, 25g por porción, sabor chocolate"
+  },
+  {
+    "id": 5,
+    "nombre": "Creatina Monohidrato 500g",
+    "precio": 95000,
+    "categoria": "suplementos",
+    "imagen": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80",
+    "descripcion": "Creatina pura para mayor rendimiento y fuerza muscular"
+  },
+  {
+    "id": 6,
+    "nombre": "Pre-Entreno C4 Original",
+    "precio": 130000,
+    "categoria": "suplementos",
+    "imagen": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80",
+    "descripcion": "Pre-entreno con cafeína, beta-alanina y arginina"
+  },
+  {
+    "id": 7,
+    "nombre": "Camiseta Dry-Fit Hombre",
+    "precio": 55000,
+    "categoria": "ropa",
+    "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80",
+    "descripcion": "Camiseta de entrenamiento con tecnología de secado rápido"
+  },
+  {
+    "id": 8,
+    "nombre": "Licra Deportiva Mujer",
+    "precio": 75000,
+    "categoria": "ropa",
+    "imagen": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80",
+    "descripcion": "Licra de compresión con cintura alta para mayor soporte"
+  },
+  {
+    "id": 9,
+    "nombre": "Tenis Running Pro",
+    "precio": 250000,
+    "categoria": "ropa",
+    "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80",
+    "descripcion": "Tenis ligeros con suela de goma para mayor agarre"
+  },
+  {
+    "id": 10,
+    "nombre": "Guantes de Boxeo 12oz",
+    "precio": 120000,
+    "categoria": "implementos",
+    "imagen": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&q=80",
+    "descripcion": "Guantes de boxeo en cuero sintético con relleno de espuma"
+  }
+]
