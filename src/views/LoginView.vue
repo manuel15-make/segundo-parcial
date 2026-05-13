@@ -66,26 +66,30 @@ export default {
     }
   },
   methods: {
-    login() {
-      this.error = ''
-      if (!this.form.usuario || !this.form.password) {
-        this.error = 'Por favor completa todos los campos.'
-        return
+login() {
+  this.error = ''
+  if (!this.form.usuario || !this.form.password) {
+    this.error = 'Por favor completa todos los campos.'
+    return
+  }
+  this.cargando = true
+  setTimeout(() => {
+    const encontrado = usuarios.find(
+      u => u.usuario === this.form.usuario && u.password === this.form.password
+    )
+    if (encontrado) {
+      localStorage.setItem('usuarioGym', JSON.stringify(encontrado))
+      if (encontrado.rol === 'admin') {
+        this.$router.push('/dashboard')
+      } else {
+        this.$router.push('/tienda')
       }
-      this.cargando = true
-      setTimeout(() => {
-        const encontrado = usuarios.find(
-          u => u.usuario === this.form.usuario && u.password === this.form.password
-        )
-        if (encontrado) {
-          localStorage.setItem('usuarioGym', JSON.stringify(encontrado))
-          this.$router.push('/dashboard')
-        } else {
-          this.error = 'Usuario o contraseña incorrectos.'
-        }
-        this.cargando = false
-      }, 600)
+    } else {
+      this.error = 'Usuario o contraseña incorrectos.'
     }
+    this.cargando = false
+  }, 600)
+}
   }
 }
 </script>

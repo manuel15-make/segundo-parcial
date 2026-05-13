@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '../views/LoginView.vue'
 import DashboardView from '../views/DashboardView.vue'
 import ProductView from '../views/ProductView.vue'
+import TiendaView from '../views/TiendaView.vue'
 
 const routes = [
   {
@@ -25,6 +26,12 @@ const routes = [
         component: ProductView
       }
     ]
+  },
+  {
+    path: '/tienda',
+    name: 'Tienda',
+    component: TiendaView,
+    meta: { requiresAuth: true }
   }
 ]
 
