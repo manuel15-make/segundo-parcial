@@ -1,6 +1,6 @@
 <template>
   <div class="tienda-page">
-    <!-- Header -->
+   
     <header class="tienda-header">
       <div class="header-brand">
         <span>💪</span>
@@ -12,7 +12,7 @@
       </div>
     </header>
 
-    <!-- Hero -->
+    
     <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">TODO LO QUE<br/>NECESITAS PARA<br/><span>ENTRENAR</span></h1>
@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <!-- Filtros -->
+   
     <section class="tienda-body" ref="productos">
       <div class="filtros-row">
         <button
@@ -35,7 +35,6 @@
         </button>
       </div>
 
-      <!-- Grid de productos -->
       <div class="tienda-grid">
         <div
           v-for="p in productosFiltrados"
@@ -58,12 +57,12 @@
       </div>
     </section>
 
-    <!-- Carrito flotante -->
+    
     <div class="carrito-flotante" @click="toggleCarrito">
       🛒 <span class="carrito-count">{{ totalItems }}</span>
     </div>
 
-    <!-- Panel carrito -->
+   
     <div v-if="carritoAbierto" class="carrito-panel">
       <div class="carrito-header">
         <h3>Tu carrito</h3>

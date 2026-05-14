@@ -8,7 +8,6 @@
       <button class="btn-nuevo" @click="abrirModal()">+ Nuevo Producto</button>
     </div>
 
-    <!-- Filtros -->
     <div class="filtros">
       <button
         v-for="cat in categorias"
@@ -21,7 +20,7 @@
       </button>
     </div>
 
-    <!-- Tabla -->
+   
     <div class="table-wrapper">
       <table class="tabla-productos">
         <thead>
@@ -55,7 +54,7 @@
       </table>
     </div>
 
-    <!-- Modal -->
+    
     <div v-if="modal" class="modal-overlay" @click.self="cerrarModal">
       <div class="modal-box">
         <h3 class="modal-title">{{ editando ? 'Editar Producto' : 'Nuevo Producto' }}</h3>
